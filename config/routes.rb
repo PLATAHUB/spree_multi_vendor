@@ -8,4 +8,5 @@ Spree::Core::Engine.routes.draw do
     get 'vendor_settings' => 'vendor_settings#edit'
     patch 'vendor_settings' => 'vendor_settings#update'
   end
+  resources :vendors
 end
